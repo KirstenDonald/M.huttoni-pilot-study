@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:bcl2fastq="http://www.illumina.com/bcl2fastq">
+<body>
+<table width="100%"><tr>
+<td><p><p>000000000-D5VHH /
+        [all projects] /
+        [all samples] /
+        [all barcodes]</p></p></td>
+</tr></table>
+<h2>Flowcell Summary</h2>
+<table border="1" ID="ReportTable">
+<tr>
+<th>Clusters (Raw)</th>
+<th>Clusters(PF)</th>
+<th>Yield (MBases)</th>
+</tr>
+<tr>
+<td>1,111,171</td>
+<td>1,060,897</td>
+<td>320</td>
+</tr>
+</table>
+<h2>Lane Summary</h2>
+<table border="1" ID="ReportTable">
+<tr>
+<th>Sample</th>
+<th>PF Clusters</th>
+<th>% of the<br>lane</th>
+<th>% Perfect<br>barcode</th>
+<th>% One mismatch<br>barcode</th>
+<th>Yield (Mbases)</th>
+<th>% PF<br>Clusters</th>
+<th>% &gt;= Q30<br>bases</th>
+<th>Mean Quality<br>Score</th>
+</tr>
+<tr>
+<td>1</td>
+<td>1,060,897</td>
+<td>100.00</td>
+<td>98.99</td>
+<td>1.01</td>
+<td>320</td>
+<td>95.48</td>
+<td>94.11</td>
+<td>36.92</td>
+</tr>
+</table>
+<h2>Sample Summary</h2>
+<table border="1" ID="ReportTable">
+<tr>
+<th>Sample</th>
+<th>Project</th>
+<th>Sample</th>
+<th>Barcode sequence</th>
+<th>PF Clusters</th>
+<th>% of the<br>lane</th>
+<th>% Perfect<br>barcode</th>
+<th>% One mismatch<br>barcode</th>
+<th>Yield (Mbases)</th>
+<th>% PF<br>Clusters</th>
+<th>% &gt;= Q30<br>bases</th>
+<th>Mean Quality<br>Score</th>
+</tr>
+<tr>
+<td>1</td>
+<td>OG4339</td>
+<td>Pilot</td>
+<td>CTGAAGCT+GTACTGAC</td>
+<td>1,025,080</td>
+<td>96.62</td>
+<td>98.96</td>
+<td>1.04</td>
+<td>310</td>
+<td>95.75</td>
+<td>94.29</td>
+<td>36.96</td>
+</tr>
+<tr>
+<td>1</td>
+<td>default</td>
+<td>Undetermined</td>
+<td style="font-style:italic">unknown</td>
+<td>35,817</td>
+<td>3.38</td>
+<td>100.00</td>
+<td>NaN</td>
+<td>11</td>
+<td>88.25</td>
+<td>89.19</td>
+<td>35.74</td>
+</tr>
+</table>
+<h2>Top Unknown Barcodes</h2>
+<table border="1" ID="ReportTable">
+<tr>
+<th>
+        Sample
+    </th>
+<th>Count</th>
+<th>Sequence</th>
+</tr>
+<tr>
+<th rowspan="11">1</th>
+<td>2,101</td>
+<td>CTTCCTCT+TCTTTCCC</td>
+</tr>
+<tr></tr>
+<tr>
+<td>1,019</td>
+<td>CCTGAAGC+GTACTGAC</td>
+</tr>
+<tr>
+<td>910</td>
+<td>TGAAGCTA+GTACTGAC</td>
+</tr>
+<tr>
+<td>875</td>
+<td>CTGAGCTA+GTACTGAC</td>
+</tr>
+<tr>
+<td>770</td>
+<td>CTGAAGCT+TACTGACA</td>
+</tr>
+<tr>
+<td>716</td>
+<td>CTGAAGCT+TCTTTCCC</td>
+</tr>
+<tr>
+<td>577</td>
+<td>CTGAAGCT+GTACTACA</td>
+</tr>
+<tr>
+<td>571</td>
+<td>CTAAGCTA+GTACTGAC</td>
+</tr>
+<tr>
+<td>526</td>
+<td>CTGAAGCT+GTATGACA</td>
+</tr>
+<tr>
+<td>518</td>
+<td>CTGAACTA+GTACTGAC</td>
+</tr>
+</table>
+<p></p>
+</body>
+</html>
+<head>
+<style type="text/css">
+
+body {
+    font-size: 100%; /*The biggest table so far is the demultiplex summary. Verify if it is still viewable if you change this*/
+    font-family:monospace;
+}
+
+/* Firefox and probably others: force right scrollbar to make sure that percentage colun widths are calculated
+   same way as in data table */
+#ScrollableTableHeaderDiv {overflow: scroll; overflow-x: hidden; border-left: 1px gray solid; border-bottom: 0px gray solid; 
+            padding:0px; margin: 0px;
+
+    border-width: 1px 1px 1px 1px;
+    border-style: inset inset inset inset;
+}
+
+/*IE 7 and 8 only. Disable the header table right scrollbar so that it does not get painted on top of the
+  last column heading*/
+*+html #ScrollableTableHeaderDiv {overflow: hidden; overflow-x: hidden; border-left: 1px gray solid; border-bottom: 0px gray solid; 
+            padding:0px; margin: 0px;
+
+    border-width: 1px 1px 1px 1px;
+    border-style: inset inset inset inset;
+}
+
+/*IE 6 only (unverified). Disable the header table right scrollbar so that it does not get painted on top of the
+  last column heading*/
+* html #ScrollableTableHeaderDiv {overflow: hidden; overflow-x: hidden; border-left: 1px gray solid; border-bottom: 0px gray solid; 
+            padding:0px; margin: 0px;
+
+    border-width: 1px 1px 1px 1px;
+    border-style: inset inset inset inset;
+}
+
+table#ReportTable {
+    border-width: 1px 1px 1px 1px;
+    border-collapse: collapse;
+
+}
+
+table#ReportTable th {
+}
+
+table#ReportTable td {
+    text-align:left;
+padding: 0.3em;
+
+}
+
+</style>
+</head>
